@@ -14,6 +14,8 @@ public class HomePage extends BasePage{
        public final By Returnproduct = By.xpath("//button[@title='Return Product ']");
         public final By RepairProduct = By.xpath("//button[@title='Repair Product ']");
         public final By KMR = By.xpath("//button[@title='KMR']");
+        public final By SMR = By.xpath("");
+
 
 
 
@@ -35,6 +37,8 @@ public class HomePage extends BasePage{
     public boolean isSalesEntryVisible(){
         return DriverManager.getDriver().findElement(Addsalesentry).isDisplayed();
     }
+
+
 
 
 
