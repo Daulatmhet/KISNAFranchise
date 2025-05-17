@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Web Automation Suite" parallel="none" thread-count="2">
+
+    <listeners>
+        <listener class-name="com.Sdaemon.Listener.ListenerClass" />
+    </listeners>
+
+    <test name="Login Tests">
+        <classes>
+            <class name="com.Sdaemon.TestClasses.LoginPageTest" />
+            <class name="com.Sdaemon.TestClasses.HomePageTest"></class>
+        </classes>
+    </test>
+
+</suite>
+
+
+
+
+
+
